@@ -18,5 +18,5 @@ curl -s --retry 3 -o $METABASE_JAR -L $METABASE_URL
 echo "done"
 
 echo -n "-----> Downloading Clickhouse Driver... from $CLICKHOUSE_DRIVER_URL to $METABASE_CLIKHOUSE_JAR"
-curl -s --retry 3 -o $CLICKHOUSE_DRIVER_URL -L $METABASE_CLIKHOUSE_JAR
+curl -s --retry 3 -o $METABASE_CLIKHOUSE_JAR -L $CLICKHOUSE_DRIVER_URL
 echo "done"
