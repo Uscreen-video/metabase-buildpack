@@ -7,7 +7,7 @@ METABASE_DIR="$1/target/uberjar"
 METABASE_JAR="$METABASE_DIR/metabase.jar"
 METABASE_URL="https://downloads.metabase.com/v$METABASE_VERSION/metabase.jar"
 CLICKHOUSE_DRIVER_URL="https://github.com/enqueue/metabase-clickhouse-driver/releases/download/0.8.1/clickhouse.metabase-driver.jar"
-METABASE_PLUGINS_DIR="$METABASE_DIR/plugins"
+METABASE_PLUGINS_DIR="$1/plugins"
 METABASE_CLIKHOUSE_JAR="$METABASE_PLUGINS_DIR/clickhouse.metabase-driver.jar"
 
 mkdir -p $METABASE_DIR
